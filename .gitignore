@@ -1,0 +1,21 @@
+# Keep runtime state outside this checkout. These are a second line of defense.
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.db
+*.db-*
+*.sqlite*
+*.log
+*.pem
+*.key
+.DS_Store
+.node_modules/
+node_modules/
+AGENTS.override.md
+.local/
+private/
+auth.json
+sessions/
+.state/

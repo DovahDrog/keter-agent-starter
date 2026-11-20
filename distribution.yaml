@@ -1,0 +1,10 @@
+name: keter-starter
+version: '0.1.0'
+description: Local-first Hermes assistant starter with a read-only Markdown Workbench and fictional examples.
+hermes_requires: '>=0.23.0'
+distribution_owned:
+  - SOUL.md
+  - skills/vault-evidence
+  - workbench/workbench.py
+  - workbench/ui
+  - examples/vault
